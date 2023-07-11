@@ -22,7 +22,7 @@ background-color: #e0e1e9;
 
 @media (min-width:361.1px) and (max-width:1440px){
     footer{
-        width: 800%;
+         width: 800%;
     }
 }
 .logo{
@@ -30,14 +30,11 @@ background-color: #e0e1e9;
     gap: 40px;
 }
 
-    
-
 .foot{
    
     display: flex;
     gap: 80px;
     padding-top: 65px;
-   /* padding-left: 80px;- */
    padding-bottom: 65px;
    margin: 65px 80px;
    
@@ -68,12 +65,12 @@ background-color: #e0e1e9;
 }
 .foot1 h1{
     color: #1341EC;
-font-family: Syne;
-font-size: 26.438px;
-font-style: normal;
-font-weight: 700;
-line-height: 150%;
-text-transform: capitalize;
+   font-family: Syne;
+   font-size: 26.438px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 150%;
+   text-transform: capitalize;
 
 }
 span{
