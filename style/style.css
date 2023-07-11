@@ -1,7 +1,90 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+
+.container{
+   width: 1200px;
+ 
+
+}
+.count9{
+    width: 50%;
+    color: white;
+}
+.count_right{
+    width: 50%;
+    color: white;
+}
+.one_text4{
+    display: flex;
+    gap: 11px;
+}
+.p_left{
+    width: 50%;
+    border-bottom: 1px solid #F2F2F2;
+}
+.p_right{
+    width: 50%;
+    border-bottom: 1px solid #F2F2F2;
+}
+
+
+.count_left_2{
+    width: 50%;
+    color: white;
+}
+.count_right_2{
+    width: 50%;
+    color: white;
+}
+.two_text5{
+    display: flex;
+    gap: 11px;
+}
+.p5{
+    width: 50%;
+    border-bottom: 1px solid #F2F2F2;
+}
+.p4{
+    width: 100%;
+    border-bottom: 1px solid #F2F2F2;
+}
+.count_left_3{
+    width: 100%;
+    color: white;
+}
+.coun3{
+width:  100%;
+    color: white;
+}
+.threep{
+    display: flex;
+    gap: 11px;   
+}
+.pleft3{
+    width: 100%;
+    border-bottom: 1px solid #F2F2F2;
+}
+.p3{
+    width: 100%;
+    border-bottom: 1px solid #F2F2F2;
+}
+.fourp{
+    display: flex;
+    gap: 11px;   
+}
+.pleft4{
+    width: 100%;
+    border-bottom: 1px solid #F2F2F2;
+}
+
+.count1{
+margin: 40px;
+  
+}
+.box1{
+    display: flex;
+    background-color: #000;
+    color: white;
+    padding: 33px;
+    
 }
 footer{
 max-width: 1440px;
