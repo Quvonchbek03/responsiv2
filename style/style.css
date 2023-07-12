@@ -1,104 +1,75 @@
 *{
-    padding: 0;
     margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
     box-sizing: border-box;
 }
-footer{
-width: 1440px;
-margin: 0 auto;
+.cont{
+    width: 1440px;
+    padding: 64px 96px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 48px;
+}
+h2{
+    color: var(--grey-1, #000);
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.rail{
+    width: 818px;
+    height: 427px;
+}
+.img{
+    display: flex;
+    padding-top: 58px;
+    gap: 20px;
+    position: relative;
+    margin-bottom: 38px;
+} 
+.rail1{
+    position: absolute;
+    bottom: -250px;
+    left: 129px;
+    color: #fff;
+
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 48px;
+}
+.images{
+    position: relative;
+    display: flex;
+    gap: 18px;
+    margin-bottom: 38px;
 
 }
-.foot{
-    display: flex;
-    gap: 100px;
-    padding-top: 65px;
-    background-color: #e0e1e9;
-   padding-left: 80px;
-   padding-bottom: 65px;
-    
-}
-.foot1 .img1{
-  display: flex; 
-  gap: 8px; 
-  align-items: center;
-  margin-bottom: 20px;
-  
-}
-.p1{
-    width: 371px;
-    margin-bottom: 33px;
-}
-.p1 p{
-    color: #383838;
-    font-family: Rubik;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
-}
-.img2{
+.pictures{
     display: flex;
     gap: 20px;
 }
-.foot1 h1{
-    color: #1341EC;
-font-family: Syne;
-font-size: 26.438px;
-font-style: normal;
-font-weight: 700;
-line-height: 150%;
-text-transform: capitalize;
+.surface{
+    position: absolute;
+    bottom: -710px;
+    left: 129px;
+    color: #fff;
 
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 48px;
+}
+.cold{
+    position: absolute;
+    bottom: -1195px;
+    left: 129px;
+    color: #fff;
 
-}
-span{
-    color: black;
-}
-.foot2 ul li a{
-    text-decoration: none;
-    color: black;
-    color: #0E0F1D;
-font-family: Rubik;
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-   
-}
-.foot2 ul li{
-    list-style: none;
-    padding-top: 30px;
-}
-.foot2 h3{
-    color: #383838;
-font-family: Rubik;
-font-size: 18px;
-}
-.foot3 ul li a{
-    text-decoration: none;
-    color: black;
-    color: #0E0F1D;
-font-family: Rubik;
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-   
-}
-.foot3 ul li{
-    list-style: none;
-    padding-top: 30px;
-}
-.foot3 h3{
-    color: #383838;
-font-family: Rubik;
-font-size: 18px;
-}
-.foot3 ul li{
-    display: flex;
-    align-items: center;
-    gap: 6px;
-}
-.foot4 h3{
-    padding-bottom: 30px;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 550;
+    line-height: 48px;
 }
