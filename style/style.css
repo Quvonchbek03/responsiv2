@@ -219,6 +219,9 @@ align-items: center;
 gap: 120px;
 }
 
+.section3{
+margin: 0 auto;
+}
 .info{
   display: flex;
 flex-direction: column;
