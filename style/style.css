@@ -7,6 +7,159 @@ body{
     background-color: #000;
 }
 /* header  start */
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  max-width: 1500px;
+  margin: 0 auto;
+  
+}
+
+.note {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+nav {
+  background-color: #fff;
+  display: flex;
+  gap: 200px;
+  padding: 20px 50px;
+  align-items: center;
+  width: 100%;
+}
+
+.menu {
+  display: flex;
+  gap: 40px;
+}
+
+.img-text {
+  display: flex;
+}
+
+.menu li a {
+  color: #1C1C1C;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+button {
+  border-radius: 6px;
+  background: #1341EC;
+  padding: 12px 28px;
+  cursor: pointer;
+  border: none;
+}
+
+button p {
+  color: #FFF;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 21px;
+}
+
+header{
+  background: #034697b5;
+  padding: 48px 71px;
+}
+
+.find{
+  border-radius: 15.922px;
+border: 0.663px solid #10254D;
+padding-left: 28px;
+padding-right: 28px;
+display: flex;
+gap: 68px;
+width: 100%;
+}
+
+.find-img img{
+  
+flex-shrink: 0;
+}
+
+.find-text{
+ 
+  padding-top: 124px;
+  padding-bottom: 124px;
+}
+
+.from{
+  color: #FFF;
+
+font-size: 12px;
+font-weight: 500;
+
+font-variant: small-caps;
+letter-spacing: 1.92px;
+}
+
+.find-text h2{
+  color: #FFF;
+font-size: 48px;
+font-weight: 600;
+line-height: 60px;
+margin-top: 16px;
+margin-bottom: 24px;
+}
+
+.find-img{
+  width: 663.297px;
+height: 312.676px;
+  /* width: 60%; */
+  padding-top: 149px;
+  padding-bottom: 149px;
+}
+
+.lorem{
+  color: #FFF;
+font-size: 18px;
+font-weight: 400;
+line-height: 27px;
+margin-bottom: 24px;
+}
+
+.search{
+  border-radius: 8.318px;
+background: #FFF;
+box-shadow: 18.300535202026367px 19.13237762451172px 33.27370071411133px 0px rgba(0, 0, 0, 0.07);
+width: 465px;
+height: 56px;
+
+}
+
+.button1{
+  border-radius: 0px 8.318px 8.318px 0px;
+  background: #1341EC;
+  padding: 17.5px 26px;
+  cursor: pointer;
+  border: none;
+  
+}
+
+input{
+  padding: 18px 147.8px 18px 20px;
+  border: none;
+  outline: none;
+  border-radius: 8.318px 0px 0px 8.318px;
+}
+
+input ::placeholder{
+  color: #C0C0C0;
+font-size: 13.309px;
+font-weight: 400;
+}
+
 /* header  end */
 
 /* section1 start */
